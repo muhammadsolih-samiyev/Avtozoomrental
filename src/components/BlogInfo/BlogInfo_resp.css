@@ -1,0 +1,37 @@
+@media (min-width: 320px) and (max-width: 500px) {
+  .BlogInfo {
+    padding: 15px;
+  }
+  .BlogInfo_head_link {
+    font-size: 10px;
+    width: 70%;
+  }
+  .BlogInfo_main_header {
+    width: 100%;
+    line-height: 30px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 750px) {
+  .BlogInfo {
+    padding: 50px;
+  }
+  .BlogInfo_main_header {
+    width: 100%;
+    line-height: 30px;
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+  .BlogInfo {
+    padding: 70px 85px 50px 85px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .BlogInfo {
+    padding: 70px 100px 50px 100px;
+  }
+}

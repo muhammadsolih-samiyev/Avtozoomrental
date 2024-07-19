@@ -1,0 +1,65 @@
+@media (min-width: 320px) and (max-width: 500px) {
+  .Services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .services_main {
+    width: 100%;
+    flex-direction: column;
+  }
+  .services_main .services_sub_main_1,
+  .services_main .services_sub_main_2 {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  .Services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .services_main {
+    width: 100%;
+    flex-direction: column;
+  }
+  .services_main .services_sub_main_1,
+  .services_main .services_sub_main_2 {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .Services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .services_main {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .Services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .services_main {
+    width: 90%;
+  }
+}

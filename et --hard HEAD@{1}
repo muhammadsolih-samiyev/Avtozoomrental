@@ -1,0 +1,23 @@
+[33m5e8a30b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmy-feature-branch[m[33m, [m[1;31morigin/my-feature-branch[m[33m)[m HEAD@{0}: commit: O'zgartirish
+[33m05e061c[m HEAD@{1}: pull origin master: Fast-forward
+[33m560a999[m HEAD@{2}: commit (merge): aded
+[33mfd8ded7[m HEAD@{3}: commit: Konfliktlar
+[33m2426a32[m HEAD@{4}: pull origin master: Merge made by the 'ort' strategy.
+[33m5dc4cc4[m HEAD@{5}: rebase (finish): returning to refs/heads/my-feature-branch
+[33m5dc4cc4[m HEAD@{6}: commit: Save changes before rebase
+[33m8bcd2fd[m HEAD@{7}: commit: Save changes before pull
+[33mba113d7[m HEAD@{8}: pull origin master --rebase (start): checkout ba113d7b696972f9c3ba0c1ddd518a2a8c89e1bf
+[33mf2dffdb[m HEAD@{9}: commit (merge): Terms-update
+[33mcc60061[m HEAD@{10}: commit: Faq-Update
+[33mfb8a1ab[m HEAD@{11}: pull: Merge made by the 'ort' strategy.
+[33m0b49bb5[m HEAD@{12}: pull origin master: Merge made by the 'ort' strategy.
+[33mfdc30af[m HEAD@{13}: commit: Resolved merge conflicts
+[33m986e01e[m HEAD@{14}: commit: Resolved merge conflicts
+[33m6b326aa[m HEAD@{15}: pull origin master: Merge made by the 'ort' strategy.
+[33medfc2f4[m HEAD@{16}: commit (merge): Resolved merge conflicts
+[33m44ba261[m HEAD@{17}: commit (merge): Update Category
+[33m003c90a[m HEAD@{18}: commit: adada
+[33m90ef944[m HEAD@{19}: pull origin master: Fast-forward
+[33m730f763[m HEAD@{20}: commit: Footer code
+[33m9111d6b[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{21}: checkout: moving from master to my-feature-branch
+[33m9111d6b[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{22}: clone: from https://github.com/Uktam19980416/AutozoomWebUI.git

@@ -1,0 +1,116 @@
+@media (min-width: 320px) and (max-width: 600px) {
+  .Add2 {
+    padding: 20px;
+  }
+  .Add2_header {
+    font-size: 22px;
+    text-align: center;
+  }
+  .Add2_row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Add2_col {
+    margin-inline: 10px;
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  .Add2_col_head_info {
+    padding-left: 10px;
+    font-size: 20px;
+  }
+  .Add2_col_text {
+    font-size: 15px;
+    padding: 15px;
+    margin-block: 15px;
+  }
+  .Add2_col_price_cost {
+    margin-inline: 20px;
+  }
+  .Add2_col_status {
+    padding-inline: 5px;
+    margin-block: 20px;
+    font-size: 15px;
+  }
+  .Add2_col_main_btn button {
+    padding: 15px 30px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 850px) {
+  .Add2 {
+    padding: 55px;
+  }
+  .Add2_row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Add2_col {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  .Add2_col_status {
+    padding-inline: 20px;
+    line-height: 25px;
+  }
+  .Add2_col_main_btn button {
+    padding: 20px 85px;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1000px) {
+  .Add2 {
+    padding: 70px 60px;
+  }
+  .Add2_row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Add2_col {
+    width: 47%;
+    margin-bottom: 30px;
+  }
+  .Add2_col_status {
+    padding-inline: 20px;
+    line-height: 25px;
+  }
+  .Add2_col_main_btn button {
+    padding: 20px 60px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .Add2 {
+    padding: 70px 60px;
+  }
+  .Add2_row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Add2_col {
+    width: 40%;
+    margin-inline: 20px;
+    margin-bottom: 30px;
+  }
+  .Add2_col_status {
+    padding-inline: 20px;
+    line-height: 25px;
+  }
+  .Add2_col_main_btn button {
+    padding: 20px 60px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .Add2 {
+    padding: 85px;
+  }
+  .Add2_col_status {
+    padding-inline: 20px;
+    line-height: 25px;
+  }
+  .Add2_col_main_btn button {
+    padding: 20px 60px;
+  }
+}

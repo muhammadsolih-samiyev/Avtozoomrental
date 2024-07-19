@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #111219;
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}

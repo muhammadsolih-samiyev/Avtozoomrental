@@ -1,0 +1,409 @@
+html {
+  overflow-x: hidden;
+  background-color: #1e1f27;
+}
+.container__1 {
+  background-color: hsl(230, 13%, 12%);
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  padding-inline-start: 100px;
+  padding-block-start: 30px;
+  padding-bottom: 100px;
+}
+.row {
+  padding: 15px;
+}
+.row_break {
+  border-top: 2px solid white;
+  padding-block: 10px;
+}
+.row_break2 {
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+.heading-1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
+  color: white;
+}
+.greyishText {
+  color: #ffffff7e;
+  font-size: 13px;
+  margin-block: 5px;
+  padding: 5px;
+}
+.greyishText-1 {
+  color: #fff9;
+  padding-block: 10px;
+  font-size: 12px;
+  line-height: 150%;
+}
+.imgContainer {
+  margin: 0;
+  width: 50%;
+}
+.imgContainer .subname {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  height: 120px;
+  letter-spacing: -0.02em;
+  line-height: 125.5%;
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+}
+.imgContainer .col-lg-6 {
+  display: flex;
+}
+.carInfo {
+  display: flex;
+  flex-direction: column;
+}
+.imgContainer .col-lg-6 .sideImg {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.imgContainer .mainImg {
+  width: 500px;
+  height: 500px;
+}
+.imgContainer .src1 {
+  width: 100px;
+  height: 80px;
+  padding: 10px;
+  object-fit: cover;
+}
+.infoContainer {
+  padding: 130px 100px 30px 30px;
+  color: white;
+  height: auto;
+  width: 50%;
+}
+.infoContainer .row_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infoContainer .row_1 .col-lg-4_1 {
+  width: 33%;
+}
+.infoContainer .row_1 .col-lg-4_1 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.infoContainer .row_1 .col-lg-4_1 div .greyishText:nth-of-type(1) {
+  margin-top: -35px;
+}
+.infoContainer .row_1 .col-lg-4_1 div .greyishText:nth-of-type(2) {
+  margin-bottom: -35px;
+}
+.carInfo h4 {
+  color: white;
+  margin: -10px 0 10px 0px;
+  font-size: 20px;
+}
+.infoContainer .row_1 .col-lg-2 {
+  width: 20%;
+}
+.infoContainer .row_1 .col-lg-2 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.infoContainer .row_1 .col-lg-2 div i,
+.infoContainer .row_1 .col-lg-2 div svg {
+  font-size: 25px;
+  color: grey;
+}
+.infoContainer .row_1 .col-lg-2 div p {
+  font-size: 20px;
+  color: white;
+  margin-top: 0px;
+}
+.infoContainer .row_1 .col-lg-6_2 {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  height: 70px;
+  width: 70px;
+  margin: 35px 10px;
+}
+.infoContainer .row_1 .col-lg-6_2:nth-of-type(1) {
+  background-color: #5aec5a;
+}
+.infoContainer .row_1 .col-lg-6_2:nth-of-type(2) {
+  background-color: #2374f8;
+}
+.infoContainer .row_1 .col-lg-6_2:nth-of-type(3) {
+  background-color: #ffb630;
+}
+.infoContainer .row_1 .forForm {
+  border: 1px solid white;
+  padding: 30px;
+  width: 350px;
+}
+.infoContainer .row_1 .forForm form input {
+  height: 40px;
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  background-color: grey;
+  border: none;
+  outline: none;
+}
+.infoContainer .row_1 .forForm form input::placeholder {
+  color: #c3c3c3;
+  font-size: 20px;
+  vertical-align: middle;
+  padding-inline-start: 10px;
+}
+.infoContainer .row_1 .forForm form input,
+.infoContainer .row_1 .forForm form input:any-link {
+  border: none;
+}
+.infoContainer .row_1 .forForm form button {
+  margin: 10px;
+  width: 100px;
+  height: 60px;
+  color: white;
+  background-color: red;
+  font-size: 20px;
+  border: none;
+}
+.infoContainer .row_1_1 {
+  display: flex;
+  margin-top: 70px;
+  flex-direction: column;
+}
+.infoContainer .row_1_1 .greyishText_ {
+  font-size: 16px;
+  color: #ffffff7e;
+  margin-top: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  .container__1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .imgContainer .subname {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    height: 120px;
+    letter-spacing: -0.02em;
+    line-height: 125.5%;
+    margin: 0 0 8px;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+  }
+  .imgContainer {
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    overflow-x: hidden;
+  }
+  .infoContainer {
+    color: white;
+    padding: 10px;
+    height: auto;
+    width: 100%;
+  }
+  .imgContainer .mainImg {
+    width: 92%;
+    height: 100%;
+  }
+  .imgContainer .src1 {
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+    object-fit: cover;
+  }
+  .infoContainer .row_1 .forForm {
+    border: 1px solid white;
+    width: 250px;
+  }
+  .mySwiperCars {
+    width: 100%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+  .container__1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .imgContainer {
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    overflow-x: hidden;
+  }
+  .infoContainer {
+    color: white;
+    padding: 10px;
+    height: auto;
+    width: 100%;
+  }
+  .imgContainer .mainImg {
+    width: 92%;
+    height: 100%;
+  }
+  .imgContainer .src1 {
+    width: 60px;
+    height: 40px;
+    padding: 10px;
+    object-fit: cover;
+  }
+  .infoContainer .row_1 .forForm {
+    border: 1px solid white;
+    width: 250px;
+  }
+  .mySwiperCars {
+    width: 100%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  .container__1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+  .imgContainer {
+    margin: 0;
+    width: 85%;
+    padding: 15px;
+    overflow-x: hidden;
+  }
+  .infoContainer {
+    padding: 10px;
+    color: white;
+    height: auto;
+    width: 90%;
+  }
+  .imgContainer .mainImg {
+    width: 92%;
+    height: 100%;
+  }
+  .imgContainer .src1 {
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+    object-fit: cover;
+  }
+  .mySwiperCars {
+    width: 100%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .container__1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+  }
+  .imgContainer {
+    margin: 0;
+    width: 100%;
+  }
+  .infoContainer {
+    padding: 30px;
+    color: white;
+    height: auto;
+    width: 100%;
+  }
+  .imgContainer .mainImg {
+    width: 92%;
+    height: 100%;
+  }
+  .imgContainer .src1 {
+    width: 95px;
+    height: 70px;
+    padding: 10px;
+    object-fit: cover;
+  }
+  .mySwiperCars {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .container__1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+  }
+  .imgContainer {
+    margin: 0;
+    width: 90%;
+  }
+  .imgContainer .subname {
+    height: 70px;
+  }
+  .infoContainer {
+    padding: 0;
+    color: white;
+    height: auto;
+    width: 100%;
+  }
+  .imgContainer .mainImg {
+    width: 94%;
+    height: 100%;
+  }
+  .row_flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .row_flexed {
+    width: 100%;
+  }
+  .mySwiperCars {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container__1 {
+    padding: 40px;
+  }
+  .imgContainer {
+    margin: 0;
+    width: 50%;
+  }
+  .infoContainer {
+    padding: 30px;
+    color: white;
+    height: auto;
+    width: 50%;
+  }
+  .imgContainer .mainImg {
+    width: 93%;
+    height: 100%;
+  }
+  .imgContainer .src1 {
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+    object-fit: cover;
+  }
+  .mySwiperCars {
+    width: 100%;
+  }
+}

@@ -1,0 +1,178 @@
+@media (min-width: 320px) and (max-width: 400px) {
+  .carsSidebarMenu img {
+    display: block;
+    position: absolute;
+    top: 100px;
+    z-index: 99;
+  }
+  #sidebarBlock.Cars_sidebar.carsSidebarBlock {
+    display: flex;
+    padding-inline: 30px;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #272933;
+  }
+  #sidebarBlock.Cars_sidebar {
+    display: none;
+  }
+  .Cars_container_main#carsMain {
+    display: block;
+    padding-block: 50px;
+    background-color: hsl(230, 13%, 12%);
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+  .Cars_container_main#carsMain.carsMainBlock {
+    display: none;
+  }
+  .Cars_sidebar_buttons_reset {
+    padding: 15px 20px;
+  }
+  .Cars_sidebar_buttons_apply {
+    padding: 15px 20px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .carsSidebarMenu img {
+    display: block;
+    position: absolute;
+    top: 100px;
+    z-index: 99;
+  }
+  #sidebarBlock.Cars_sidebar.carsSidebarBlock {
+    display: flex;
+    padding-inline: 30px;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #272933;
+  }
+  #sidebarBlock.Cars_sidebar {
+    display: none;
+  }
+  .Cars_container_main#carsMain {
+    display: block;
+    background-color: hsl(230, 13%, 12%);
+    padding-block: 50px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+  .Cars_container_main#carsMain.carsMainBlock {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .carsSidebarMenu img {
+    display: block;
+    position: absolute;
+    top: 100px;
+    z-index: 99;
+  }
+  #sidebarBlock.Cars_sidebar.carsSidebarBlock {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-inline: 30px;
+    background-color: #272933;
+  }
+  #sidebarBlock.Cars_sidebar {
+    display: none;
+  }
+  .Cars_container_main#carsMain {
+    display: block;
+    padding-block: 50px;
+    background-color: hsl(230, 13%, 12%);
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+  .Cars_container_main#carsMain.carsMainBlock {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .carsSidebarMenu img {
+    display: block;
+    position: absolute;
+    top: 100px;
+    z-index: 99;
+  }
+  #sidebarBlock.Cars_sidebar.carsSidebarBlock {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-inline: 50px;
+    background-color: #272933;
+  }
+  #sidebarBlock.Cars_sidebar {
+    display: none;
+  }
+  .Cars_container_main#carsMain {
+    display: block;
+    background-color: hsl(230, 13%, 12%);
+    padding-block: 50px;
+    width: 100%;
+    height: auto;
+  }
+  .Cars_sidebar_buttons {
+    justify-content: space-around;
+  }
+  .Cars_container_main#carsMain.carsMainBlock {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  #sidebarBlock.Cars_sidebar {
+    display: flex;
+    flex-direction: column;
+    max-width: 490px;
+    height: auto;
+    padding-inline: 30px;
+    background-color: #272933;
+  }
+  .Cars_container_main#carsMain {
+    display: block;
+    background-color: hsl(230, 13%, 12%);
+    padding-block: 50px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+  .Cars_sidebar_buttons_reset {
+    padding: 15px 30px;
+    margin-right: 10px;
+  }
+  .Cars_sidebar_buttons_apply {
+    padding: 15px 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #sidebarBlock.Cars_sidebar {
+    display: flex;
+    flex-direction: column;
+    max-width: 490px;
+    height: auto;
+    padding-bottom: 50px;
+    padding-inline: 30px;
+    margin: 0;
+    background-color: #272933;
+  }
+  .Cars_container_main#carsMain {
+    background-color: hsl(230, 13%, 12%);
+    display: block;
+    padding-block: 50px;
+    width: 68%;
+    margin: 0;
+    height: auto;
+  }
+}

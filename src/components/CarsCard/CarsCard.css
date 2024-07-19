@@ -1,0 +1,277 @@
+.Add{
+    width: 100%;
+    background-color: #272933;
+    color: #fff;
+}
+.cards{
+    width: 100%;
+    height: 500px;
+    margin: 10px 0;
+}
+.card{
+    width: 320px;
+    height: 420px;
+    padding: 10px 15px;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+
+.card .card-image{
+    width: 265px;
+    height: 270px;
+    object-fit: contain;
+    object-position: center;
+}
+.hr{
+    width: 100%;
+    margin: 4px auto;
+    height: 1px;
+    background-color: gray;
+}
+.card:hover{
+    background: linear-gradient(160deg, #ffffff59 -10.06%, rgba(0, 0, 0, .178) 39.4%, hsla(0, 2%, 9%, .446)) !important;
+    /* border: 1.3px solid #9292921d; */
+    cursor: pointer;
+}
+.model_name{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.car-price{
+    color: #9e9a9a;
+    font-size: 18px;
+    font-weight: 300;
+}
+.car-title{
+    color: #b3b2b2;
+    font-size: 19px;
+    padding: 10px 0;
+}
+.add-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.add-sublink{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+.left-icon{
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 12px;
+    transition: all 0.5s ease-in-out;
+}
+.add-sublink:hover .left-icon{
+    transform: translateX(8px);
+}
+.add-title{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 300;
+    padding-top: 20px;
+}
+.card h2{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 7px;
+}
+@media screen and (max-width: 874px) {
+    .cards{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+    }
+    .card .card-image{
+        width: 350px;
+        margin: 0 auto;
+    }
+    .add-title{
+        font-size: 22px;
+    }
+    /* title */
+
+  
+    .card h2{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        padding: 7px;
+    }
+    .model_name{
+        font-size: 34px;
+        padding-right: 5px;
+    }
+    .car-price{
+        color: #9e9a9a;
+        font-size: 22px;
+        font-weight: 300;
+    }
+    .car-title{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .card{
+        margin: 0 auto;
+        width: 450px;
+        height: 500px;
+    }
+    .card .card-image{
+        width: 350px;
+        margin: 0 auto;
+    }
+    .add-title{
+        font-size: 22px;
+    }
+    /* title */
+
+  
+    .card h2{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        padding: 7px;
+    }
+    .model_name{
+        font-size: 34px;
+        padding-right: 5px;
+    }
+    .car-price{
+        color: #9e9a9a;
+        font-size: 22px;
+        font-weight: 300;
+    }
+    .car-title{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .card{
+        width: 350px;
+        height: 420px;
+    }
+    .card .card-image{
+        width: 260px;
+        
+        margin: 0 auto;
+    }
+    .add-title{
+        font-size: 16px;
+    }
+    .add-sublink{
+        gap: 6px;
+        padding-top: 15px;
+        font-size: 14px;
+        padding-top: 24px;
+    }
+    .left-icon{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .card h2{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        padding: 10px 0px;
+    }
+    .model_name{
+        font-size: 22px;
+        padding-right: 5px;
+    }
+    .car-price{
+        color: #9e9a9a;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .car-title{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 470px) {
+    .card{
+        margin: 0 auto;
+        width: 300px;
+        height: 430px;
+    }
+    .card .card-image{
+        width: 260px;
+    }
+    .add-title{
+        font-size: 16px;
+        width: 200px;
+    }
+    .add-sublink{
+        gap: 6px;
+        padding-top: 24px;
+        font-size: 15px;
+    }
+    .left-icon{
+        padding: 5px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .card{
+        width: 100%;
+        height: 430px;
+    }
+    .card .card-image{
+        width: 240px;
+    }
+    .add-title{
+        font-size: 13px;
+        font-weight: 700;
+        width: 150px;
+        line-height: 24px;
+    }
+    .add-sublink{
+        gap: 6px;
+        padding-top: 2px;
+        font-size: 12px;
+    }
+    .left-icon{
+        padding: 5px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 340px) {
+    .card{
+        width: 100%;
+        height: 430px;
+        padding: 0px 10px;
+       text-align: center;
+    }
+    .card .card-image{
+        width: 240px;
+    }
+    .add-title{
+        font-size: 13px;
+        font-weight: 700;
+        width: 150px;
+        line-height: 24px;
+    }
+    .add-sublink{
+        gap: 6px;
+        padding-top: 2px;
+        font-size: 12px;
+    }
+    .left-icon{
+        padding: 5px;
+        font-size: 10px;
+    }
+}

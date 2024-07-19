@@ -1,0 +1,92 @@
+@media (min-width: 320px) and (max-width: 450px) {
+  .About {
+    padding-inline: 30px;
+  }
+  .about_title {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 100%;
+    margin: 70px 0;
+    color: white;
+    text-transform: uppercase;
+  }
+  .about_header_info {
+    font-weight: 400;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+  }
+  .About div .about_info {
+    display: inline-block;
+    line-height: 45px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  .About div .about_info2 {
+    line-height: 45px;
+    color: white;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  .about_bigText {
+    color: #cacaca;
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 450px) and (max-width: 700px) {
+  .About {
+    padding-inline: 30px;
+  }
+  .about_title {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 100%;
+    margin: 70px 0;
+    color: white;
+    text-transform: uppercase;
+  }
+  .about_header_info {
+    font-weight: 400;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+  }
+  .About div .about_info {
+    display: inline-block;
+    line-height: 45px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  .About div .about_info2 {
+    line-height: 45px;
+    color: white;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+  }
+  .about_bigText {
+    color: #cacaca;
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 700px) and (max-width: 1000px) {
+  .About {
+    padding-inline: 50px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .About {
+    padding-inline: 70px;
+  }
+}

@@ -1,0 +1,36 @@
+.slider__container {
+  width: 100vw;
+  height: auto;
+}
+
+.slider__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 80px 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.sub__title {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.sub__title_block {
+  width: 50%;
+  text-align: center;
+}
+
+.link__text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+}

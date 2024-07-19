@@ -1,0 +1,64 @@
+.BrandWrapper{
+background: #1E1F27 !important;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 0 20px;
+  width: 100%;
+}
+.brands-title {
+  color: #fff;
+  font-size: 40px;
+  line-height: 45px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.brand__images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  height: 170px;
+  background: #111219 !important;
+  transition: all 0.5s ease;
+  border-radius: 5px;
+}
+.brand__images:hover {
+  background: linear-gradient(161.55deg, hsla(0, 0%, 100%, .294) -9.06%, #11121997 39.4%, #111219) !important;
+}
+.brand__text {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.brand__img {
+  width: 60px;
+  height: 60px;
+}
+
+.mySwipercon {
+  max-width: 1280px !important;
+  width: 100% !important;
+  height: 450px !important;
+}
+@media screen and (max-width: 600px) {
+  .brands-title {
+    font-size: 32px;
+    line-height: 45px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .brands-title {
+    font-size: 26px;
+    line-height: 45px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+}

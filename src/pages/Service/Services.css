@@ -1,0 +1,82 @@
+.Services {
+  padding: 70px 150px 50px 150px;
+  font-family: AvertaCY, sans-serif;
+  background-color: #1e1f27;
+}
+.services_head_link {
+  color: #fff9;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  margin: 12px 0;
+  text-decoration: none;
+}
+.services_header {
+  color: #fff;
+  font-size: 30px;
+  margin-block: 50px;
+  text-transform: uppercase;
+  font-weight: 650;
+  width: 100%;
+}
+.services_main {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+.services_main .services_sub_main_1,
+.services_main .services_sub_main_2 {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+.services_sub_main_space {
+  padding: 10px;
+}
+.services_sub_main_1 .services_sub_main_info,
+.services_sub_main_2 .services_sub_main_info {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  margin: 25px 0;
+  width: 100%;
+  color: white;
+}
+.services_sub_main_text {
+  font-family: AvertaCY, sans-serif;
+  letter-spacing: 1.1px;
+  font-size: 18px;
+  line-height: 160%;
+  margin: 0 0 40px;
+  width: 100%;
+  color: white;
+}
+.services_sub_main_link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.5s;
+}
+.servicesLink:hover .services_sub_main_link {
+  transform: translateX(20px);
+}
+.servicesLink {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.services_main .shevronRight {
+  height: 35px;
+  width: 35px;
+  padding-left: 5px;
+}
+.services_main .services_sub_main_1 .serviceImg {
+  width: 100%;
+  height: 240px;
+}
+.services_main .services_sub_main_2 .serviceImg {
+  width: 100%;
+  height: 240px;
+}

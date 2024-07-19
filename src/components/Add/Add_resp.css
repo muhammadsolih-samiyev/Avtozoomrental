@@ -1,0 +1,114 @@
+@media (min-width: 320px) and (max-width: 600px) {
+  .Add {
+    padding: 20px;
+  }
+  .Add_header {
+    font-size: 22px;
+    text-align: center;
+  }
+  .Add_row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Add_col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .Add_col_head_info {
+    padding-left: 10px;
+    font-size: 20px;
+  }
+  .Add_col_text {
+    font-size: 15px;
+    padding: 15px;
+    margin-block: 15px;
+  }
+  .Add_col_price_cost {
+    margin-inline: 20px;
+  }
+  .Add_col_status {
+    padding-inline: 5px;
+    margin-block: 20px;
+    font-size: 15px;
+  }
+  .Add_col_main_btn button {
+    padding: 15px 30px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 850px) {
+  .Add {
+    padding: 55px;
+  }
+  .Add_row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Add_col {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  .Add_col_status {
+    padding-inline: 20px;
+    line-height: 25px;
+  }
+  .Add_col_main_btn button {
+    padding: 20px 85px;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1000px) {
+  .Add {
+    padding: 70px 60px;
+  }
+  .Add_row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Add_col {
+    width: 47%;
+    margin-bottom: 30px;
+  }
+  .Add_col_status {
+    padding-inline: 20px;
+    line-height: 25px;
+  }
+  .Add_col_main_btn button {
+    padding: 20px 60px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .Add {
+    padding: 70px 60px;
+  }
+  .Add_row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Add_col {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  .Add_col_status {
+    padding-inline: 20px;
+    line-height: 25px;
+  }
+  .Add_col_main_btn button {
+    padding: 20px 60px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .Add {
+    padding: 85px;
+  }
+  .Add_col_status {
+    padding-inline: 20px;
+    line-height: 25px;
+  }
+  .Add_col_main_btn button {
+    padding: 20px 60px;
+  }
+}

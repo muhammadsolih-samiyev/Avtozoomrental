@@ -1,0 +1,198 @@
+.Cars_container_ {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin: 0;
+  font-family: AvertaCY, sans-serif;
+  z-index: 0;
+}
+/* .Cars_container_main#carsMain {
+  display: block;
+  padding-block: 50px;
+  width: 68%;
+  height: auto;
+} */
+.Cars_container_ .Cars_container_main_link {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-block-end: 50px;
+  color: #fff9;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  text-decoration: none;
+}
+.carsSidebarMenu img {
+  position: absolute;
+  z-index: 991;
+  top: -10px;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+/* #sidebarBlock.Cars_sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 200vh;
+  background-color: #272933;
+} */
+.Cars_sidebar_header {
+  color: white;
+  padding-top: 50px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.Cars_sidebar_offers_header {
+  color: white;
+  padding-block: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: 200;
+}
+.Cars_sidebar_carType_header {
+  padding-block: 25px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: 200;
+}
+.Cars_sidebar_brand_header {
+  padding-block: 25px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: 200;
+}
+.Cars_sidebar_model_info {
+  padding-block: 25px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: 200;
+}
+.Cars_container_main_car_info {
+  padding-inline-start: 10px;
+}
+.Cars_sidebar_offers_info,
+.Cars_sidebar_carType_info,
+.Cars_sidebar_brand_info {
+  padding-inline-start: 15px;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  gap: 15px;
+  margin-bottom: 14px;
+}
+.Cars_sidebar_model_select {
+  display: flex;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+.Cars_sidebar_model_select select {
+  width: 90%;
+  height: 50px;
+  border-radius: 8px;
+  padding-left: 20px;
+}
+.Cars_sidebar_buttons_reset {
+  background: none;
+  border: 1.3px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 19px;
+  letter-spacing: 2px;
+  outline: none;
+  padding: 20px 40px;
+}
+.Cars_sidebar_buttons_apply {
+  background: none;
+  border: 1.3px solid #009a00;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #009a00;
+  cursor: pointer;
+  font-size: 19px;
+  letter-spacing: 2px;
+  outline: none;
+  padding: 20px 40px;
+}
+.Cars_sidebar_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Cars_container_main_cars {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-inline-start: 15px;
+  width: 100%;
+}
+.Cars_container_main_car {
+  height: 475px;
+  width: 275px;
+  padding: 5px;
+  border-radius: 15px;
+  margin: 10px;
+  border: 1px solid #ffffff2f;
+  background: linear-gradient(
+    338deg,
+    rgba(41, 41, 41, 0.266) 31%,
+    hsla(200, 1%, 59%, 0.152)
+  );
+}
+.Cars_container_main_car_heading {
+  border-bottom: 1.3px solid #ffffff63;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  padding: 7px;
+}
+.Cars_container_main_car_price_in_aed {
+  color: #fff;
+  font-family: AvertaCY, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.Cars_container_main_car_price_in_usd {
+  color: #9e9a9a;
+  font-size: 18px;
+  font-weight: 300;
+}
+.Cars_container_main_car_info_buttons {
+  padding-block-start: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.Cars_container_main_car_info_btn_whatsApp button {
+  align-items: center;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  gap: 10px;
+  margin-left: 0;
+  margin-top: 50px;
+  padding: 14px 12px;
+  background-color: #00c600;
+  border: none;
+}
+.Cars_container_main_car_info_btn_telegram button {
+  align-items: center;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  gap: 10px;
+  margin-top: 50px;
+  padding: 14px 12px;
+  background-color: #2727e0;
+  border: none;
+}

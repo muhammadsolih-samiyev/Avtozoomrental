@@ -1,0 +1,26 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.info__block {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.info__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'AvertCY', sans-serif;
+}
+
+.info__text {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'AvertCY', sans-serif;
+  line-height: 35px;
+}

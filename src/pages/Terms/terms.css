@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%
+}
+
+.container{
+    width: 80%;
+}
+
+.terms{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+    background-color: #282a34;
+    opacity: 0.9;
+}
+
+.terms_text{
+    font-size: 1rem;
+    margin: 15px 0px;
+}
+
+.terms_h2{
+    margin-top: 35px;
+}

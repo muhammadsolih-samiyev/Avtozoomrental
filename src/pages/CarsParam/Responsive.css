@@ -1,0 +1,206 @@
+/* @media (min-width: 320px) and (max-width: 400px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+    .imgContainer {
+      margin: 0;
+      width: 100%;
+      padding: 10px;
+      overflow-x: hidden;
+    }
+    .infoContainer {
+      color: white;
+      padding: 10px;
+      height: auto;
+      width: 100%;
+    }
+    .imgContainer .mainImg {
+      width: 92%;
+      height: 100%;
+    }
+    .imgContainer .src1 {
+      width: 50px;
+      height: 40px;
+      padding: 10px;
+      object-fit: cover;
+    }
+    .infoContainer .row_1 .forForm {
+      border: 1px solid white;
+      width: 250px;
+    }
+    .mySwiper {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 400px) and (max-width: 500px) {
+      .container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+      }
+      .imgContainer {
+        margin: 0;
+        width: 100%;
+        padding: 10px;
+        overflow-x: hidden;
+      }
+      .infoContainer {
+        color: white;
+        padding: 10px;
+        height: auto;
+        width: 100%;
+      }
+      .imgContainer .mainImg {
+        width: 92%;
+        height: 100%;
+      }
+      .imgContainer .src1 {
+        width: 60px;
+        height: 40px;
+        padding: 10px;
+        object-fit: cover;
+      }
+      .infoContainer .row_1 .forForm {
+        border: 1px solid white;
+        width: 250px;
+      }
+      .mySwiper {
+          width: 100%;
+      }
+  }
+  
+  @media (min-width: 500px) and (max-width: 700px) {
+  .container {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      align-items: center;
+  }
+  .imgContainer {
+      margin: 0;
+      width: 85%;
+      padding: 15px;
+      overflow-x: hidden;
+  }
+  .infoContainer {
+      padding: 10px;
+      color: white;
+      height: auto;
+      width: 90%;
+  }
+  .imgContainer .mainImg {
+      width: 92%;
+      height: 100%;
+  }
+  .imgContainer .src1 {
+      width: 70px;
+      height: 50px;
+      padding: 10px;
+      object-fit: cover;
+  }
+  .mySwiper {
+      width: 100%; 
+  }
+  }
+  
+  @media (min-width: 700px) and (max-width: 1000px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 35px;
+    }
+    .imgContainer {
+      margin: 0;
+      width: 100%;
+    }
+    .infoContainer {
+      padding: 30px;
+      color: white;
+      height: auto;
+      width: 100%;
+    }
+    .imgContainer .mainImg {
+      width: 92%;
+      height: 100%;
+    }
+    .imgContainer .src1 {
+      width: 95px;
+      height: 70px;
+      padding: 10px;
+      object-fit: cover;
+    }
+    .mySwiper {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 1000px) and (max-width: 1200px) {
+  .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 35px;
+  }
+  .imgContainer {
+      margin: 0;
+      width: 90%;
+  }
+  .imgContainer .subname {
+      height: 70px;
+  }
+  .infoContainer {
+      padding: 0;
+      color: white;
+      height: auto;
+      width: 100%;
+  }
+  .imgContainer .mainImg {
+      width: 94%;
+      height: 100%;
+  }
+  .row_flex {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+  }
+  .row_flexed {
+      width: 100%;
+  } 
+  .mySwiper {
+      width: 100%;
+  }
+  }
+  
+  @media (min-width: 1200px) {
+  .container {
+      padding: 40px;
+  }
+  .imgContainer {
+      margin: 0;
+      width: 50%;
+  }
+  .infoContainer {
+      padding: 30px;
+      color: white;
+      height: auto;
+      width: 50%;
+  }
+  .imgContainer .mainImg {
+      width: 93%;
+      height: 100%;
+  }
+  .imgContainer .src1 {
+      width: 100px;
+      height: 70px;
+      padding: 10px;
+      object-fit: cover;
+    }
+  .mySwiper {
+      width: 100%;
+  }
+  }
+   */

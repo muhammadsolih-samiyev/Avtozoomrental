@@ -1,0 +1,23 @@
+@media (min-width: 320px) and (max-width: 450px) {
+  .Contacts {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 600px) {
+  .Contacts {
+    padding: 50px 40px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .Contacts {
+    padding: 50px 70px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1350px) {
+  .Contacts {
+    padding: 50px 100px;
+  }
+}

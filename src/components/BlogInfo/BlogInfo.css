@@ -1,0 +1,42 @@
+.BlogInfo {
+  padding: 70px 150px 50px 120px;
+  font-family: AvertaCY, sans-serif;
+  background-color: #1e1f27;
+}
+.BlogInfo_head_link {
+  color: #fff9;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  margin: 12px 0;
+  text-decoration: none;
+}
+.BlogInfo_main_header {
+  color: #fff;
+  width: 80%;
+  font-size: 40px;
+  margin-block: 50px;
+  font-weight: 550;
+}
+.BlogInfo_main_info {
+  color: #fff;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 1.1;
+}
+.BlogInfo_body_header {
+  color: #fff;
+  padding: 20px 0;
+}
+.BlogInfo_body_img {
+  height: 500px;
+  object-fit: cover;
+  object-position: bottom;
+  padding-bottom: 30px;
+  width: 100%;
+}
+.BlogInfo_body_header_para {
+  color: #fff;
+  font-size: 18px;
+  line-height: 150%;
+  width: 100%;
+}
